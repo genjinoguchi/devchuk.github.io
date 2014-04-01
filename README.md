@@ -6,12 +6,19 @@ Here's an example website of a really cool guy named Jeremy Blum: http://www.jer
 
 Home
 	Blog
+
 	Portfolio
+
 		Mechatronics
+
 		Software
+
 		Writing
-		Miscellaneous
+
+	    Miscellaneous
+
 	About
+
 	Contact
 
 
