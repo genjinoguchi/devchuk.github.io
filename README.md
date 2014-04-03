@@ -30,3 +30,9 @@ Home
 
 
 Stuff that would be cool to have: fb, twitter, youtube, g+, linkedin, flickr
+
+Oh and here's a link of colors for CSS:
+
+		http://imgur.com/gallery/IEHsl
+
+We'll see if what this man says is true.
