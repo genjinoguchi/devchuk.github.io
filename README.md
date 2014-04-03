@@ -36,3 +36,7 @@ Oh and here's a link of colors for CSS:
 		http://imgur.com/gallery/IEHsl
 
 We'll see if what this man says is true.
+
+And flat design examples:
+
+		http://fltdsgn.com/
