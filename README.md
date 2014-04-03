@@ -40,3 +40,6 @@ We'll see if what this man says is true.
 And flat design examples:
 
 		http://fltdsgn.com/
+		http://plainwhite.co/#!/
+		http://r-ny.com/
+		http://hlynnphoto.com/index.php
