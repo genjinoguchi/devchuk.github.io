@@ -31,6 +31,8 @@ Home
 
 Stuff that would be cool to have: fb, twitter, youtube, g+, linkedin, flickr
 
+http://www.quora.com/Web-Design/What-are-the-web-design-trends-for-2014
+
 Oh and here's a link of colors for CSS:
 
 		http://imgur.com/gallery/IEHsl
