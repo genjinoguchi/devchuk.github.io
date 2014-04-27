@@ -40,7 +40,8 @@ Oh and here's a link of colors for CSS:
 We'll see if what this man says is true.
 
 And flat design examples:
-
+		http://kevlee.us/
+		http://annaakana.com/
 		http://fltdsgn.com/
 		http://plainwhite.co/#!/
 		http://r-ny.com/
