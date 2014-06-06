@@ -46,3 +46,4 @@ And flat design examples:
 		http://plainwhite.co/#!/
 		http://r-ny.com/
 		http://hlynnphoto.com/index.php
+		http://www.formaxiom.com/
