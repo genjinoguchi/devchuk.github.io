@@ -47,3 +47,6 @@ And flat design examples:
 		http://r-ny.com/
 		http://hlynnphoto.com/index.php
 		http://www.formaxiom.com/
+
+That loading animation here is AMAZING WHAT. It's on Youtube too.
+http://sterlingplays.com/
