@@ -1,30 +1,30 @@
 devchuk.github.io
 =================
 
-This is the website of Brian Chuk! It will have a blog, resume, and showcase creations by Brian Chuk.
-Here's an example website of a really cool guy named Jeremy Blum: http://www.jeremyblum.com/
+This is the website of Brian Chuk! It will have a blog, resume, portfolio, and showcase creations by Brian Chuk.
 
 Potential background gif: http://i.imgur.com/EKmLMWB.gif
 
-Home
-	Blog
+	Home
 
-	Portfolio
+		Blog
 
-		Mechatronics
+		Portfolio
 
-		Software
+			Hardware
 
-		Writing
+			Software
 
-	    Miscellaneous
+	 	   Miscellaneous
 
-	About
+		About
 
-	Contact
+			Resume
+
+		Contact
 
 
-Stuff that would be cool to have: fb, twitter, youtube, g+, linkedin, flickr
+Stuff that look pretty cool:
 
 http://www.quora.com/Web-Design/What-are-the-web-design-trends-for-2014
 
@@ -32,7 +32,7 @@ Oh and here's a link of colors for CSS:
 
 		http://imgur.com/gallery/IEHsl
 
-We'll see if what this man says is true.
+		http://www.checkman.io/please/
 
 And flat design examples:
 		http://kevlee.us/
