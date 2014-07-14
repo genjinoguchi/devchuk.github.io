@@ -45,3 +45,9 @@ And flat design examples:
 
 That loading animation here is AMAZING WHAT. It's on Youtube too.
 http://sterlingplays.com/
+
+
+Tools Used:
+		(Headroom.js)[http://wicky.nillia.ms/headroom.js/]
+
+		(Normalize.css)[http://necolas.github.io/normalize.css/]
