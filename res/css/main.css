@@ -174,7 +174,7 @@ table {
 body {
     font-family: Helvetica,Arial,sans-serif;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: #dfdfdf;
     color: #292f36;
 }
 
@@ -257,7 +257,7 @@ body {
 }
 
 .container--wide {
-    max-width: 51em;
+    
 }
 
 .block {
@@ -378,6 +378,10 @@ body {
     padding: 1em 0;
     color: #fff;
     -webkit-font-smoothing: antialiased;
+}
+
+.footer {
+    background-color: #de3230
 }
 
 .header {
