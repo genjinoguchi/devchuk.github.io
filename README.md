@@ -32,7 +32,7 @@ Oh and here's a link of colors for CSS:
 
 		http://imgur.com/gallery/IEHsl
 
-		http://www.checkman.io/please/
+		
 
 And flat design examples:
 		http://kevlee.us/
@@ -48,6 +48,13 @@ http://sterlingplays.com/
 
 
 Tools Used:
+
 		(Headroom.js)[http://wicky.nillia.ms/headroom.js/]
 
 		(Normalize.css)[http://necolas.github.io/normalize.css/]
+
+		(Jekyll)[http://jekyllrb.com]
+
+		Choosing beautiful colors with (Please.js)[http://www.checkman.io/please
+
+		(Font Awesome)[http://fortawesome.github.io/Font-Awesome/]
