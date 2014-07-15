@@ -1,5 +1,8 @@
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
-
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Droid Sans', sans-serif;
+*/
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
@@ -244,6 +247,10 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,pre,fieldset,form,legend {
     margin-bottom: 1rem;
 }
 
+i {
+    padding-left: 17px;
+}
+
 body {
     margin: 0;
 }
@@ -383,9 +390,22 @@ body {
 }
 
 .footer-social {
+    padding-top: 17px;
+    padding-left:17px;
     text-align:left;
     display: block;
     float:left;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.footer-up {
+    text-align:right;
+    padding-right:17px;
+    padding-top:14px;
+    float:right;
     color: #fff;
     text-decoration: none;
     border: 0;
