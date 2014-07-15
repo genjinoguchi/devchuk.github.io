@@ -421,7 +421,6 @@ body {
     text-decoration: none;
     border: 0;
 }
-
 .header__link:focus {
     outline: 0;
     background-color: rgba(78,205,196,0.1);
