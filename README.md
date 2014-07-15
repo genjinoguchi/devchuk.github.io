@@ -35,26 +35,34 @@ Oh and here's a link of colors for CSS:
 		
 
 And flat design examples:
+
 		http://kevlee.us/
+
 		http://annaakana.com/
+
 		http://fltdsgn.com/
+
 		http://plainwhite.co/#!/
+
 		http://r-ny.com/
+
 		http://hlynnphoto.com/index.php
+
 		http://www.formaxiom.com/
 
-That loading animation here is AMAZING WHAT. It's on Youtube too.
-http://sterlingplays.com/
+		That loading animation here is AMAZING WHAT. It's on Youtube too:
+
+			http://sterlingplays.com/
 
 
 Tools Used:
 
-		[Headroom.js](http://wicky.nillia.ms/headroom.js/)
+[Headroom.js](http://wicky.nillia.ms/headroom.js/)
 
-		[Normalize.css](http://necolas.github.io/normalize.css/)
+[Normalize.css](http://necolas.github.io/normalize.css/)
 
-		[Jekyll](http://jekyllrb.com)
+[Jekyll](http://jekyllrb.com)
 
-		Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
+Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 
-		[Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+[Font Awesome](http://fortawesome.github.io/Font-Awesome/)
