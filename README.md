@@ -1,6 +1,8 @@
 devchuk.github.io
 =================
 
+Student by day, hacker and maker by night.
+
 This is the website of Brian Chuk! It will have a blog, resume, portfolio, and showcase creations by Brian Chuk.
 
 Potential background gif: http://i.imgur.com/EKmLMWB.gif
