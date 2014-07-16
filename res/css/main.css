@@ -388,6 +388,15 @@ body {
     background-color: #de3230
 }
 
+#wrap {
+    margin:0px 0 0;
+    padding:40px 30px 40px;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color:#fff;
+}
+
 .footer-social {
     padding-top: 17px;
     padding-left:17px;
