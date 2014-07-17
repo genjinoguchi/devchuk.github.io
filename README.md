@@ -68,3 +68,7 @@ Tools Used:
 Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+
+[Lazy Line Painter](http://lazylinepainter.info/)
+
+[Images Loaded](http://imagesloaded.desandro.com/)
