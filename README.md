@@ -28,21 +28,9 @@ Potential background gif: http://i.imgur.com/EKmLMWB.gif
 
 Stuff that look pretty cool:
 
-http://www.quora.com/Web-Design/What-are-the-web-design-trends-for-2014
-
-Oh and here's a link of colors for CSS:
-
-		http://imgur.com/gallery/IEHsl
-
-		
+http://www.quora.com/Web-Design/What-are-the-web-design-trends-for-2014	
 
 And flat design examples:
-
-		http://kevlee.us/
-
-		http://annaakana.com/
-
-		http://fltdsgn.com/
 
 		http://plainwhite.co/#!/
 
