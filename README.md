@@ -60,3 +60,5 @@ Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 [Lazy Line Painter](http://lazylinepainter.info/)
 
 [Images Loaded](http://imagesloaded.desandro.com/)
+
+[Brace Forms](http://forms.brace.io/), THIS IS BLOODY AMAZING OMG
