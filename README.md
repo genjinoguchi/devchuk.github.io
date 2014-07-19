@@ -64,3 +64,7 @@ Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 [Brace Forms](http://forms.brace.io/), THIS IS BLOODY AMAZING OMG
 
 ![placeholder](http://i.imgur.com/jTBgwTL.jpg "GOGOGO")
+
+[Pure CSS Forms](http://purecss.io/forms/)
+
+[Buttons](http://alexwolfe.github.io/Buttons/)
