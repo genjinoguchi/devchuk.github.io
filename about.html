@@ -70,26 +70,109 @@
                 <hr>
                 <br>
                 <center>
-                  <button class="button button-border-caution">Who am I?</button>
-                  <button class="button button-border-caution">What I do</button>
-                  <button disabled="" class="button button-border-caution">R&eacute;sum&eacute;</button>
+                  <button class="button button-border-caution" id="whoButton">Who am I?</button>
+                  <button class="button button-border-caution" id="whatButton">What I do</button>
+                  <button class="button button-border-caution">R&eacute;sum&eacute;</button>
                 </center>
-                <p>This is the about page. As you can see, I just started today.</p>
-                <p>I haven't slept last night because I was procrastinating by reading articles, so I'll probably not make much progress and sleep.</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                <p>Placeholder</p>
-                
+                <br>
+                <div id="who">
+                  <p>This is the about page. As you can see, I just started today.</p>
+                  <p>I haven't slept last night because I was procrastinating by reading articles, so I'll probably not make much progress and sleep.</p>
+                  <p>This part of the about page is supposed to give a short bio about myself.</p>
+                  <p>It's kind of boring so I'll figure out how to add a little twist.</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                </div>
+                <div id="what">
+                  <p>This part of the about page is supposed to show off educational facts, things I've done, and my proficiencies (is that even a word?) in several languages/tools.</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                </div>
+                <div id="placehold">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                </div>
               </header><!-- end single-entry-header -->   
             </div> <!--#feature-->
           <div class="clear"></div>       
@@ -136,6 +219,25 @@
     }).init();
 
   }());
+  </script>
+
+  <script>
+  $( document ).ready(function() {
+    $( "#what"  ).hide();
+    $( "#placehold" ).hide();
+  });
+
+  $( "#whoButton" ).click(function() {
+    $( "#placehold" ).show(0).delay(1000).hide(0);
+    $( "#what"  ).delay(300).fadeOut( "fast" );
+    $( "#who" ).delay(600).fadeIn( "fast" );
+  });
+
+  $( "#whatButton" ).click(function() {
+    $( "#placehold" ).show(0).delay(1000).hide(0);
+    $( "#who" ).delay(300).fadeOut( "fast" );
+    $( "#what" ).delay(600).fadeIn( "fast" );
+  });
   </script>
 
 
