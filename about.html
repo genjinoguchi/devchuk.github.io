@@ -72,7 +72,7 @@
                 <center>
                   <button class="button button-border-caution" id="whoButton">Who am I?</button>
                   <button class="button button-border-caution" id="whatButton">What I do</button>
-                  <button class="button button-border-caution">R&eacute;sum&eacute;</button>
+                  <button class="button button-border-caution" id="resumeButton">R&eacute;sum&eacute;</button>
                 </center>
                 <br>
                 <div id="who">
@@ -114,6 +114,35 @@
                 </div>
                 <div id="what">
                   <p>This part of the about page is supposed to show off educational facts, things I've done, and my proficiencies (is that even a word?) in several languages/tools.</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                  <p>Placeholder</p>
+                </div>
+                <div id="resume">
+                  <p>Download my resume here!</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
@@ -224,19 +253,29 @@
   <script>
   $( document ).ready(function() {
     $( "#what"  ).hide();
+    $( "#resume").hide();
     $( "#placehold" ).hide();
   });
 
   $( "#whoButton" ).click(function() {
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#what"  ).delay(300).fadeOut( "fast" );
+    $( "#resume"  ).delay(300).fadeOut( "fast" );
     $( "#who" ).delay(600).fadeIn( "fast" );
   });
 
   $( "#whatButton" ).click(function() {
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#who" ).delay(300).fadeOut( "fast" );
+    $( "#resume"  ).delay(300).fadeOut( "fast" );
     $( "#what" ).delay(600).fadeIn( "fast" );
+  });
+
+  $( "#resumeButton" ).click(function() {
+    $( "#placehold" ).show(0).delay(1000).hide(0);
+    $( "#who" ).delay(300).fadeOut( "fast" );
+    $( "#what"  ).delay(300).fadeOut( "fast" );
+    $( "#resume" ).delay(600).fadeIn( "fast" );    
   });
   </script>
 
