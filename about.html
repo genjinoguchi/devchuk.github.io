@@ -141,35 +141,6 @@
                   <p>Placeholder</p>
                   <p>Placeholder</p>
                 </div>
-                <div id="resume">
-                  <p>Download my resume here!</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                  <p>Placeholder</p>
-                </div>
                 <div id="placehold">
                   <br>
                   <br>
@@ -253,29 +224,19 @@
   <script>
   $( document ).ready(function() {
     $( "#what"  ).hide();
-    $( "#resume").hide();
     $( "#placehold" ).hide();
   });
 
   $( "#whoButton" ).click(function() {
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#what"  ).delay(300).fadeOut( "fast" );
-    $( "#resume"  ).delay(300).fadeOut( "fast" );
     $( "#who" ).delay(600).fadeIn( "fast" );
   });
 
   $( "#whatButton" ).click(function() {
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#who" ).delay(300).fadeOut( "fast" );
-    $( "#resume"  ).delay(300).fadeOut( "fast" );
     $( "#what" ).delay(600).fadeIn( "fast" );
-  });
-
-  $( "#resumeButton" ).click(function() {
-    $( "#placehold" ).show(0).delay(1000).hide(0);
-    $( "#who" ).delay(300).fadeOut( "fast" );
-    $( "#what"  ).delay(300).fadeOut( "fast" );
-    $( "#resume" ).delay(600).fadeIn( "fast" );    
   });
   </script>
 
