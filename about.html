@@ -230,12 +230,16 @@
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#what"  ).delay(300).fadeOut( "fast" );
     $( "#who" ).delay(600).fadeIn( "fast" );
+    $(this).addClass('disabled');
+    $( "#whatButton" ).removeClass('disabled');
   });
 
   $( "#whatButton" ).click(function() {
     $( "#placehold" ).show(0).delay(1000).hide(0);
     $( "#who" ).delay(300).fadeOut( "fast" );
     $( "#what" ).delay(600).fadeIn( "fast" );
+    $(this).addClass('disabled');
+    $( "#whoButton" ).removeClass('disabled');
   });
   //resume link
   $('#resumeButton').click(function(e) {

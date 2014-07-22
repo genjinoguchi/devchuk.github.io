@@ -533,6 +533,11 @@ body {
     z-index: 0;
 }
 
+.disabled
+{
+    background-color:#dfdfdf;
+}
+
 .slide {
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
