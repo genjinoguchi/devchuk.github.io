@@ -8,6 +8,21 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     display: block;
 }
 
+*::-moz-selection {
+    background:#de3230;
+    color:#fff;
+}
+
+*::-webkit-selection {
+    background:#de3230;
+    color:#fff;
+}
+
+*::selection {
+    background:#de3230;
+    color:#fff;
+}
+
 audio,canvas,video {
     display: inline-block;
 }
@@ -37,6 +52,10 @@ a:focus {
 
 a:active,a:hover {
     outline: 0;
+}
+
+a:link {
+    color:#de3230;    
 }
 
 h1 {
