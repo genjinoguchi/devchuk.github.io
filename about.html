@@ -72,7 +72,7 @@
                 <center>
                   <button class="button button-border-caution" id="whoButton">Who am I?</button>
                   <button class="button button-border-caution" id="whatButton">What I do</button>
-                  <button class="button button-border-caution" id="resumeButton">R&eacute;sum&eacute;</button>
+                  <button class="button button-border-caution" id="resumeButton" data-href="https://drive.google.com/file/d/0B_RTwatU12PgUkFfdlM4dnd0WXc/edit?usp=sharing"id="resumeButton">R&eacute;sum&eacute;</button>
                 </center>
                 <br>
                 <div id="who">
@@ -202,6 +202,7 @@
 
   <script src="http://wicky.nillia.ms/headroom.js/assets/scripts/main.js?v=2"></script>
   <script>
+  //header functions
   (function() {
     var header = document.querySelector("#header");
     if(window.location.hash) {
@@ -219,9 +220,7 @@
     }).init();
 
   }());
-  </script>
-
-  <script>
+  //about functions
   $( document ).ready(function() {
     $( "#what"  ).hide();
     $( "#placehold" ).hide();
@@ -238,6 +237,11 @@
     $( "#who" ).delay(300).fadeOut( "fast" );
     $( "#what" ).delay(600).fadeIn( "fast" );
   });
+  //resume link
+  $('#resumeButton').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = $(e.currentTarget).data().href;
+    });
   </script>
 
 
