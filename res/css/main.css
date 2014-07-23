@@ -400,7 +400,7 @@ body {
     border: 0;
 }
 
-.brand {
+.brand__forename {
     display: inline-block;
     text-decoration: none;
     padding: 1em 0;
