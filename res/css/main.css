@@ -50,10 +50,19 @@ a:active,a:hover {
     outline: 0;
 }
 
-a:link {
-    color:#de3230;    
+a:visited {
+    color: #de3230;
 }
 
+a:link {
+    color:#de3230;
+    text-decoration: none;    
+}
+
+a:hover {
+    color:#eb8685;
+    text-decoration: none;
+}
 h1 {
     font-size: 2em;
     margin: .67em 0;
