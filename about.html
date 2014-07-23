@@ -76,8 +76,8 @@
                 </center>
                 <br>
                 <div id="who">
-                  <h1 style="font-size:3em;font-weight:bold;">Welcome to my website. Just call me Chuk.</h1>
-                  <p>Here's what you need to know. I'm 17 years old, and I'm a recent graduate of Stuyvesant High School. Currently, I am studying in New York University for a major in Computer Science and a minor in Electrical Engineering. I love to make awesome things, as you can probably tell just by looking at all the stuff I've created. Don't hesitate to contact me if you have any questions.</p>
+                  <h1 style="font-size:3em;font-weight:bold;">Just call me Chuk.</h1>
+                  <p>Here's what you need to know. I'm <span id="age"></span> years old, and I'm a recent graduate of Stuyvesant High School. Currently, I am studying in New York University for a major in Computer Science and a minor in Electrical Engineering. I love to make awesome things, as you can probably tell just by looking at all the stuff I've created. Don't hesitate to contact me if you have any questions.</p>
                   <br><br>
                   <p style="font-weight:bold">My Work During my Years at Stuyvesant High School (outside the classroom)</p>
                   <li>I was a president of Stuyvesant Science Olympiad, one of the biggest clubs in the school.</li>
@@ -91,12 +91,13 @@
                   <li>I've built tons of projects, from wooden bicycles to quadcopters.</li>
                   <li>I participate in hackathons throughout the year, you can view my submissions in my portfolio.</li>
                   <li>I strongly believe in learning by doing and taking education into your own hands.</li>
-                  <li>That's all for now, and it's just getting started :)</li>
+                  <li>That's all for now, and it's just getting started. :)</li>
                   <br><br>
                   <center><img src="./res/img/light1.jpg"></center>
                 </div>
                 <div id="what">
                   <h1 style="font-size:3em;font-weight:bold;">Experience</h1>
+                  <p style="font-weight:bold">In the Machine</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
@@ -108,7 +109,7 @@
                   <p>Placeholder</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
-                  <p>Placeholder</p>
+                  <p style="font-weight:bold">In the Real World</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
                   <p>Placeholder</p>
@@ -203,6 +204,9 @@
     }).init();
 
   }());
+  //age function
+  document.getElementById("age").innerHTML="INSERT AGE HERE. WIP.";
+
   //about functions
   $( document ).ready(function() {
     $( "#what"  ).hide();

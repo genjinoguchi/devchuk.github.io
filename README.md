@@ -68,3 +68,5 @@ Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 [Pure CSS Forms](http://purecss.io/forms/)
 
 [Buttons](http://alexwolfe.github.io/Buttons/)
+
+[Modernizr.js](http://modernizr.com/)
