@@ -5,26 +5,6 @@ Student by day, hacker and maker by night.
 
 This is the website of Brian Chuk! It will have a blog, resume, portfolio, and showcase creations by Brian Chuk.
 
-Potential background gif: http://i.imgur.com/EKmLMWB.gif
-
-	Home
-
-		Blog
-
-		Portfolio
-
-			Hardware
-
-			Software
-
-	 	   Miscellaneous
-
-		About
-
-			Resume
-
-		Contact
-
 
 Stuff that look pretty cool:
 
