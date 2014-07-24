@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+
+# Permalinks
+permalink: /blog/:year/:month/:day/:title/
+
+# Setup
+title:            devChuk
+tagline:          'A Jekyll theme'
+description:      'A pretty, one page <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a autohiding header with uncomplicated content. Made by <a href="https://twitter.com/devChuk" target="_blank">@devChuk</a>.'
+url:              http://devchuk.github.io
+baseurl:          /
+
+author:
+  name:           'Brian Chuk'
+  url:            https://twitter.com/devchuk
+
+paginate: 5
+paginate_path: "blog/page:num"
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/devChuk/devchuk.github.io
