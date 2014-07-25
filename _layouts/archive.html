@@ -74,29 +74,10 @@
   <center>
     <div id="page" class="clearfix" style="margin:6em">    
      <div id="wrap" style="max-width:1300px;text-align:left">
-        <h1 style="font-size:6em;font-weight:bold;letter-spacing: 0.07em;">BLOG</h1>
+        <h1 style="font-size:6em;font-weight:bold;letter-spacing: 0.07em;">ARCHIVE</h1>
         <hr>
         <div id="content" class="full-width front-content">
-          <div style="float:left;width:800px;padding-right:2em"><!--front left-->
-            <div id="featured-box">
-              <header class="single-entry-header">
-                <br>
-                {{ content }}
-              </header><!-- end single-entry-header -->   
-            </div> <!--#feature--> 
-          </div> <!--end front left-->
-          <div id="front-right" style="text-align:left">
-            <br>
-            <p style="font-weight:bold"><a href="http://devchuk.github.io/blog/archive.html">Archive</a></p>
-            <ul>
-              {% for post in site.posts %}
-              <div>
-                <span><a title="{{ post.date | date_to_string }}"href="{{ post.url }}">{{ post.title }}</a></span>
-                <small style="float:right">{{ post.date | date_to_long_string }}</small>
-              </div>
-              {% endfor %}
-            </ul>
-          </div>     
+          {{ content }}
         </div><!-- end content -->
       </div>
     </div>

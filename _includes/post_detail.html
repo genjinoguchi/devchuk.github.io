@@ -1,0 +1,7 @@
+{% if post.title %}
+    <span style="color:#de3230;font-weight:bold">{{ post.title }}</span>
+{% endif %}
+{% if post.date %}
+	<small style="float:right"> {{ post.date | date_to_long_string }} </small> 
+{% endif %}
+<div class="entry-content">{{ content }}</div>

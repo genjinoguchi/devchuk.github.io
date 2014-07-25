@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
 <div class="posts">
@@ -12,7 +12,7 @@ title: Home
       </a>
     </span>
 
-    <small style="float:right" class="post-date">{{ post.date | date_to_string }}</small>
+    <small style="float:right" class="post-date">{{ post.date | date_to_long_string }}</small>
 
     {{ post.content }}
   </div>

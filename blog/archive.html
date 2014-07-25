@@ -1,0 +1,18 @@
+---
+layout: archive
+Title: Archive
+---
+<br>
+<ul>
+  {% for post in site.posts %}
+    <div>
+      <span><a title="{{ post.date | date_to_string }}"href="{{ post.url }}">{{ post.title }}</a></span>
+      <small style="float:right">{{ post.date | date_to_long_string }}</small>
+    </div>
+  {% endfor %}
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
