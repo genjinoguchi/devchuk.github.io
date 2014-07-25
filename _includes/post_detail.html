@@ -4,4 +4,6 @@
 {% if post.date %}
 	<small style="float:right"> {{ post.date | date_to_long_string }} </small> 
 {% endif %}
-<div class="entry-content">{{ content }}</div>
+{% if post.excerpt %}
+	<div class="entry-content">{{ post.excerpt }}
+{% endif %}
