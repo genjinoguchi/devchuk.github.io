@@ -20,10 +20,6 @@ And flat design examples:
 
 		http://www.formaxiom.com/
 
-		That loading animation here is AMAZING WHAT. It's on Youtube too:
-
-			http://sterlingplays.com/
-
 
 Tools Used:
 
