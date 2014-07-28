@@ -48,4 +48,4 @@ Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 [Modernizr.js](http://modernizr.com/)
 
 Run with
-> bundle exec jekyll serve
+> bundle exec jekyll serve --watch
