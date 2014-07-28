@@ -17,6 +17,8 @@ I'd like to give credit to the tools I used to create this website:
 -[Brace Forms](http://forms.brace.io/) has helped a ton with the contact page.<br>
 -[MixItUp](https://mixitup.kunkalabs.com/) for an incredible sorting plugin for the portfolio page.<br>
 
+<!---excerpt-->
+
 <center>![placeholder](http://i.imgur.com/jTBgwTL.jpg "GOGOGO")</center>
 
 That's all for now. Thanks for visiting the website and make sure to follow the because there will be lot of fun upcoming projects I'd like to work on.
