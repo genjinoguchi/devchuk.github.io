@@ -20,7 +20,7 @@ author:
 
 paginate: 5
 paginate_path: "blog/page:num"
-excerpt_separator: <!--more-->
+excerpt_separator: ~ Brian Chuk #A clever hack so that you won't have an ugly excerpt separator showing in the blog pages
 
 
 # Custom vars
