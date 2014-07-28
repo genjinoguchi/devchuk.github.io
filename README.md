@@ -46,3 +46,6 @@ Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
 [Buttons](http://alexwolfe.github.io/Buttons/)
 
 [Modernizr.js](http://modernizr.com/)
+
+Run with
+> bundle exec jekyll serve
