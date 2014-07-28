@@ -20,32 +20,5 @@ And flat design examples:
 
 		http://www.formaxiom.com/
 
-
-Tools Used:
-
-[Headroom.js](http://wicky.nillia.ms/headroom.js/)
-
-[Normalize.css](http://necolas.github.io/normalize.css/)
-
-[Jekyll](http://jekyllrb.com)
-
-Choosing beautiful colors with [Please.js](http://www.checkman.io/please)
-
-[Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-
-[Lazy Line Painter](http://lazylinepainter.info/)
-
-[Images Loaded](http://imagesloaded.desandro.com/)
-
-[Brace Forms](http://forms.brace.io/), THIS IS BLOODY AMAZING OMG
-
-![placeholder](http://i.imgur.com/jTBgwTL.jpg "GOGOGO")
-
-[Pure CSS Forms](http://purecss.io/forms/)
-
-[Buttons](http://alexwolfe.github.io/Buttons/)
-
-[Modernizr.js](http://modernizr.com/)
-
 Run with
 > bundle exec jekyll serve --watch
