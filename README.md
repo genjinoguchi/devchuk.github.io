@@ -22,3 +22,12 @@ And flat design examples:
 
 Run with
 > bundle exec jekyll serve --watch
+
+CSS dump
+{
+	animation: {
+		duration: 400,
+		effects: 'translateZ(-360px) stagger(34ms) rotateY(20deg) rotateX(20deg) translateY(10%) translateX(10%) scale(0.01) fade rotateZ(20deg)',
+		easing: 'ease'
+	}
+}
