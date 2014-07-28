@@ -2,7 +2,7 @@
 markdown:         redcarpet
 highlighter:      true
 
-exclude: YEAR-MM-DD-example-content.md 
+exclude: ['YEAR-MM-DD-example-content.md']
 
 # Permalinks
 permalink: /blog/:year/:month/:day/:title/

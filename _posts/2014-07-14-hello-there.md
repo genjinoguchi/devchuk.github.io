@@ -24,6 +24,3 @@ I'd like to give credit to the tools I used to create this website:
 That's all for now. Thanks for visiting the website and make sure to follow the because there will be lot of fun upcoming projects I'd like to work on.
 
 ~ Brian Chuk
-
-<br>
-<hr>
