@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Brian Chuk | Home</title>
+    <title>Brian Chuk | Portfolio</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Brian Chuk is a full stack software developer, a tinkerer, and a maker.">
-    <meta property="og:title" content="Brian Chuk | Home">
+    <meta property="og:title" content="Brian Chuk | Portfolio">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://devChuk.github.io">
+    <meta property="og:url" content="http://devChuk.github.io/portfolio.html">
     <meta property="og:description" content="Brian Chuk is a full stack software developer, a tinkerer, and a maker.">
     <meta property="og:site_name" content="Brian Chuk">
-    <meta name="twitter:creator" content="@sdevChuk">
+    <meta name="twitter:creator" content="@devChuk">
     <meta name="twitter:card" content="summary">
 
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
-    <link rel="shortcut icon" href="./res/img/favicon.ico">
+    <script src="http://static.tumblr.com/6nxvfxq/fj7mk0r17/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/skills.css">
+    <link rel="shortcut icon" href="http://devchuk.github.io/res/img/favicon.ico">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./res/css/main.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/forms-min.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./res/css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="http://devchuk.github.io/res/css/buttons.css">
+
+    <style>
+      .skills-graph .label span {
+      font-size: 14px;
+      font-weight: 600; }
+     .skills-graph .graph-container.vertical .bar-container { height: 300px; }
+    </style>
+
+    <script>
+      var options = {};
+    </script>
+
 </head>
 
 <body>
@@ -26,23 +42,23 @@
       <nav id="nav" class="nav-wrapper" role="navigation">
           <ul class="nav">
               <li class="nav__item ">
-                  <a class="header__link subdued" href="./blog">
+                  <a class="header__link subdued" href="../blog">
                       <span style="color:#fff">BLOG</span>
                   </a>
               </li>
               <li class="nav__item ">
-                <a class="header__link subdued" href="./portfolio">
+                <a class="header__link subdued" href="../portfolio">
                     <span style="color:#fff">PORTFOLIO</span>
                 </a>
               </li>
               <li class="nav__item ">
-                <a class="header__link subdued" href="./about">
+                <a class="header__link subdued" href="../about">
                     <span style="color:#fff">ABOUT</span>
                 </a>
               </li>
               <li class="nav__item ">
-                <a class="header__link subdued" href="./contact.html">
-                    <span style="color:#fff" style="color:#fff">CONTACT</span>
+                <a class="header__link subdued" href="../contact.html">
+                    <span style="color:#fff">CONTACT</span>
                 </a>
               </li>
           </ul>
@@ -56,44 +72,19 @@
   </header>
 
   <header id="home"></header>
-  <div id="heroburrito">
-    <div id="heroburrito" class="vert home"  data-0="transform: translateY(0px);" data-1000="transform: translateY(350px);" >
-      <div class="vertwrapper">
-        <h1 data-0="background-position-y:-200px;" data-1000="background-position-y:0px;" style="padding-left:1em">Brian Chuk</h1>
-      </div>
-    </div>
-  </div>
+  <br>
   <center>
     <div id="page" class="clearfix" style="margin:6em">    
-      <div id="wrap" style="max-width:1300px">
+     <div id="wrap" style="max-width:1300px;text-align:left">
         <div id="content" class="full-width front-content">
-          <div style="float:left;width:600px;padding-right:10em;"><!--front left-->    
             <div id="featured-box">
-              <header class="single-entry-header" style="text-align:left">
-                <h7 style="font-weight:bold">LATEST POST FROM MY BLOG</h7>
+              <header class="single-entry-header">
+                <h1 style="font-size:6em;font-weight:bold;letter-spacing: 0.07em;">PORTFOLIO</h1>
                 <hr>
+                <br>
                 {{ content }}
               </header><!-- end single-entry-header -->   
             </div> <!--#feature-->
-          </div><!--left float-->
-
-          <div id="front-right" style="text-align:left">
-
-            <h7 style="font-weight:bold">A LITTLE ABOUT ME</h7>
-            <hr>
-            <center><img class="mugshot" src="./res/img/stare3.jpg"></center>
-            <div style="text-align:justify">                
-              <center><div style="font-size:small"><i>Student by day, tinkerer and maker by night.</i></div></center>
-              I'm a Full Stack Software Developer and Electrical Engineer developing open-source hacks, building robots, blogging, and advocating entrepreneurship. I just really like to create awesome things, from the silliest concepts to projects that positively impact others. You can learn more about me <a href="http://devchuk.github.io/about">here</a>.   
-            </div>
-            <br>
-
-            <div id="featured-portfolio-box" style="float:right;width:31em">
-              <h7 style="font-weight:bold">RANDOM PORTFOLIO PROJECT</h7>
-              <hr>
-              <center><button class="button button-border-caution button-large" id="whatButton">Surprise Me</button></center>
-            </div>
-          </div><!-- Front Right -->
           <div class="clear"></div>       
         </div><!-- end content -->
       </div>
@@ -121,6 +112,7 @@
 
   <script src="http://wicky.nillia.ms/headroom.js/assets/scripts/main.js?v=2"></script>
   <script>
+  //header functions
   (function() {
     var header = document.querySelector("#header");
     if(window.location.hash) {
@@ -138,11 +130,8 @@
     }).init();
 
   }());
+
   </script>
 
-
-  <script type='text/javascript' src='./res/js/js.js'></script>
-  <script type='text/javascript' src='./res/js/imagesloaded.js'></script>
-  <script type='text/javascript' src='./res/js/helper.js'></script>
 </body>
 </html>
