@@ -2,35 +2,129 @@
 layout: portfolio
 Title: Brian Chuk | Portfolio
 ---
+<link rel="stylesheet" type="text/css" href="../res/css/portfolio.css">
 
 <center style="font-weight:bold">
   <label>Sort:</label>
-  <button class="button button-border-caution"><i class="fa fa-random" style="padding-right:1em"></i></button>
-  <button class="button button-border-caution disabled">Newest First</button>
-  <button class="button button-border-caution">Oldest First</button>
+  <span class="sort" data-sort="random"><button class="button button-border-caution" id="shuffle"><i class="fa fa-random" style="padding-right:1em"></i></button></span>
+  <span class="sort" data-sort="myorder:desc"><button class="button button-border-caution" id="new">Newest First</button></span>
+  <span class="sort" data-sort="myorder:asc"><button class="button button-border-caution disabled" id="old">Oldest First</button></span>
   <label>Filter:</label>
-  <button class="button button-border-caution disabled" id="all">All</button>
-  <button class="button button-border-caution" id="hardware">Hardware</button>
-  <button class="button button-border-caution" id="software">Software</button>
+  <span class="filter" data-filter="all"><button class="button button-border-caution disabled" id="all">All</button></span>
+  <span class="filter" data-filter=".category-1"><button class="button button-border-caution" id="hard">Hardware</button></span>
+  <span class="filter" data-filter=".category-2"><button class="button button-border-caution" id="soft">Software</button></span>
 </center>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+            <div id="Container" class="grid cs-style-2">
+                <li class="mix category-1" data-myorder="1">                    
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/2.png" alt="img02">
+                        <figcaption>
+                            <h3>Music</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mix category-1" data-myorder="2">
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/3.png" alt="img03">
+                        <figcaption>
+                            <h3>Settings</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mix category-1" data-myorder="3">
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/6.png" alt="img06">
+                        <figcaption>
+                            <h3>Game Center</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mix category-2" data-myorder="4">
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/4.png" alt="img04">
+                        <figcaption>
+                            <h3>Safari</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mix category-2" data-myorder="5">
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/5.png" alt="img05">
+                        <figcaption>
+                            <h3>Phone</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="mix category-2" data-myorder="6">
+                    <figure>
+                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/1.png" alt="img01">
+                        <figcaption>
+                            <h3>Camera</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </div><!-- /Containermix-->
 
+<script src="../res/js/jquery.mixitup.min.js"></script>
+<script>
+  $(function(){
 
+    // Instantiate MixItUp:
 
+    $('#Container').mixItUp();
+
+  });
+
+</script>
+<script>
+  //button animations
+  $( "#new" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#old" ).removeClass('disabled');
+  });
+
+  $( "#old" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#new" ).removeClass('disabled');
+  });
+
+  $( "#all" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#hard" ).removeClass('disabled');
+        $( "#soft" ).removeClass('disabled');
+  });
+
+  $( "#hard" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#all" ).removeClass('disabled');
+        $( "#soft" ).removeClass('disabled');
+  });
+
+  $( "#soft" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#all" ).removeClass('disabled');
+        $( "#hard" ).removeClass('disabled');
+  });
+
+  $( "#shuffle" ).click(function() {
+        $( "#old" ).removeClass('disabled');
+        $( "#new" ).removeClass('disabled');
+  });
+
+</script>
 <script>
   $(function(){
     $('#Container').mixItUp();
