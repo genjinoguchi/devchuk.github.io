@@ -31,4 +31,4 @@ Working on the robot arms were the most fun and influential times I've had durin
 <small><i>The control box of the robot arm</i></small></center>
 <br>
 <br>
-You can learn more about the project [here](http://naokicho.com/#robot-arm)
+You can learn more about the project [here](http://naokicho.com/#robot-arm).
