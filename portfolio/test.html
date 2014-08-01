@@ -15,7 +15,7 @@ Title: Brian Chuk | Portfolio
   <span class="filter" data-filter=".category-2"><button class="button button-border-caution" id="soft">Software</button></span>
   <span class="filter" data-filter=".category-3"><button class="button button-border-caution" id="misc">Misc.</button></span>
 </center>
-
+          <div class="posts">
             <div id="Container" class="grid cs-style-2">
                 <li class="mix category-1" data-myorder="1">                    
                     <figure>
@@ -78,6 +78,7 @@ Title: Brian Chuk | Portfolio
                     </figure>
                 </li>
             </div><!-- /Containermix-->
+          </div>
 
 <script src="../res/js/jquery.mixitup.min.js"></script>
 <script>
@@ -108,19 +109,20 @@ Title: Brian Chuk | Portfolio
         $(this).addClass('disabled');
         $( "#hard" ).removeClass('disabled');
         $( "#soft" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
   });
   $( "#hard" ).click(function() {
         $(this).addClass('disabled');
         $( "#all" ).removeClass('disabled');
         $( "#soft" ).removeClass('disabled');
-        $( "#mism" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
 
   });
   $( "#soft" ).click(function() {
         $(this).addClass('disabled');
         $( "#all" ).removeClass('disabled');
         $( "#hard" ).removeClass('disabled');
-        $( "#mism" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
   });
   $( "#misc" ).click(function() {
         $(this).addClass('disabled');
