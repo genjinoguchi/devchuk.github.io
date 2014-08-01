@@ -7,10 +7,16 @@ exclude: ['YEAR-MM-DD-example-content.md']
 # Permalinks
 permalink: /blog/:year/:month/:day/:title/
 
+# Portfolio Setup
+collections:
+  projects:
+    output: true
+#This will produce a file for each document in the collection. For example, if you have _projects/hardware/some_doc.md, it will be rendered using Liquid and the Markdown converter of your choice and written out to <dest>/projects/hardware/some_doc.html
+
 # Setup
-title:            devChuk
-tagline:          'A Jekyll theme'
-description:      'A pretty, one page <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a autohiding header with uncomplicated content. Made by <a href="https://twitter.com/devChuk" target="_blank">@devChuk</a>.'
+title:            'Brian Chuk'
+tagline:          'A personal website'
+description:      'A personal website of Brian Chuk'
 url:              http://devchuk.github.io
 baseurl:          /
 
