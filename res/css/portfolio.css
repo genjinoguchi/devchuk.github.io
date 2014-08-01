@@ -111,8 +111,8 @@ body {
 .codrops-demos a:hover,
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover {
-    border-color: #2c3f52;
-    color: #2c3f52;
+    border-color: #272727;
+    color: #272727;
 }
 
 @media screen and (max-width: 25em) {
@@ -156,7 +156,7 @@ body {
     top: 0;
     left: 0;
     padding: 20px;
-    background: #2c3f52;
+    background: #272727;
     color: #de3230;
 }
 
@@ -472,7 +472,7 @@ body {
     -webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
     -moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
     transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-    box-shadow: 0 0 0 0px #2c3f52;
+    box-shadow: 0 0 0 0px #272727;
 }
 
 .no-touch .cs-style-7 figure:hover figcaption,
@@ -480,7 +480,7 @@ body {
     pointer-events: auto;
     opacity: 1;
     height: 130%;
-    box-shadow: 0 0 0 10px #2c3f52;
+    box-shadow: 0 0 0 10px #272727;
 }
 
 .cs-style-7 figcaption h3 {
