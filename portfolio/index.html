@@ -15,69 +15,22 @@ Title: Brian Chuk | Portfolio
   <span class="filter" data-filter=".category-2"><button class="button button-border-caution" id="soft">Software</button></span>
   <span class="filter" data-filter=".category-3"><button class="button button-border-caution" id="misc">Misc.</button></span>
 </center>
-
+          <div class="posts">
             <div id="Container" class="grid cs-style-2">
-                <li class="mix category-1" data-myorder="1">                    
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/2.png" alt="img02">
-                        <figcaption>
-                            <h3>Music</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="mix category-1" data-myorder="2">
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/3.png" alt="img03">
-                        <figcaption>
-                            <h3>Settings</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="mix category-1" data-myorder="3">
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/6.png" alt="img06">
-                        <figcaption>
-                            <h3>Game Center</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="mix category-2" data-myorder="4">
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/4.png" alt="img04">
-                        <figcaption>
-                            <h3>Safari</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="mix category-3" data-myorder="5">
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/5.png" alt="img05">
-                        <figcaption>
-                            <h3>Phone</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="mix category-2" data-myorder="6">
-                    <figure>
-                        <img src="http://tympanus.net/Tutorials/CaptionHoverEffects/images/1.png" alt="img01">
-                        <figcaption>
-                            <h3>Camera</h3>
-                            <span>Jacob Cummings</span>
-                            <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
+                {% for proj in site.portfolio %}
+                <li class="{{ proj.cat }}" data-myorder="{{ proj.order }}">                    
+                      <figure>
+                          <img src="{{ proj.img }}">
+                          <figcaption>
+                              <h3>{{ proj.title }}</h3>
+                              <span>{{ proj.date }}</span>
+                              <a href="{{ proj.url }}">Take a look</a>
+                          </figcaption>
+                      </figure>
+                  </li>
+                {% endfor %}
             </div><!-- /Containermix-->
+          </div>
 
 <script src="../res/js/jquery.mixitup.min.js"></script>
 <script>
@@ -108,19 +61,20 @@ Title: Brian Chuk | Portfolio
         $(this).addClass('disabled');
         $( "#hard" ).removeClass('disabled');
         $( "#soft" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
   });
   $( "#hard" ).click(function() {
         $(this).addClass('disabled');
         $( "#all" ).removeClass('disabled');
         $( "#soft" ).removeClass('disabled');
-        $( "#mism" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
 
   });
   $( "#soft" ).click(function() {
         $(this).addClass('disabled');
         $( "#all" ).removeClass('disabled');
         $( "#hard" ).removeClass('disabled');
-        $( "#mism" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
   });
   $( "#misc" ).click(function() {
         $(this).addClass('disabled');
