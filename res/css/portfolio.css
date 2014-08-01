@@ -166,10 +166,6 @@ body {
     color: #fff;
 }
 
-.grid figcaption span:before {
-    content: 'by ';
-}
-
 .grid figcaption a {
     text-align: center;
     padding: 5px 10px;
