@@ -9,9 +9,8 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Portfolio Setup
 collections:
-  projects:
+  portfolio:
     output: true
-#This will produce a file for each document in the collection. For example, if you have _projects/hardware/some_doc.md, it will be rendered using Liquid and the Markdown converter of your choice and written out to <dest>/projects/hardware/some_doc.html
 
 # Setup
 title:            'Brian Chuk'

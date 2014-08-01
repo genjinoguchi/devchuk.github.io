@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Hello There
 cat: mix category-#
 order: 1
