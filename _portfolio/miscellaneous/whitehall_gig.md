@@ -23,3 +23,4 @@ The planks were finished off with gunwales, and the rest of the parts of the boa
 		![Image not found](../../res/img/portimg/whitehall_gig/w2.JPG)<br>
 <small><i>The bow & the starboard of the boat</i></small></center>
 <br>
+You should consider rowing in the Hudson River with the Village Community Boathouse. It's a fantastic and free experience. Check out the boathouse's website [here](http://www.villagecommunityboathouse.org/).

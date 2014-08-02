@@ -10,7 +10,7 @@ img: ../res/img/portimg/the_wooden_trike/da_wooden_trike.jpg
 
 <center>![Image not found](../../res/img/portimg/the_wooden_trike/the_wooden_trike.JPG)<br>
 <small><i>The Wooden Trike</i></small></center><br>
-This is probably one of the most fun and ridiculous projects I've had yet. Stuyvesant High School has a woodshop class on the 10th floor. For our final project, we're allowed to build anything we want. Usually students would build shelves, chairs, desks, or other small furniture&#8210;but I wanted to have a little fun.
+This is probably one of the most fun and ridiculous projects I've had yet. Stuyvesant High School has a woodshop class on the 10th floor and for our final project, we're allowed to build anything we want. Usually students would build shelves, chairs, desks, or other small furniture&#8210;but I wanted to have a little fun.
 <br>
 <br>
 <center>![Image not found](../../res/img/portimg/the_wooden_trike/int.jpg)<br>
