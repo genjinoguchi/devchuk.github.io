@@ -2,7 +2,12 @@
 layout: default
 title: Blog
 ---
-
+<script type="text/javascript">
+  if (screen.width <= 699) {
+  alert("My site is not optimized for phone browsers. You will be redirected to my mobile page. -Chuk");
+  document.location = "http://about.me/brian.chuk";
+  }
+</script>
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
