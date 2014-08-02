@@ -138,6 +138,26 @@
     }).init();
 
   }());
+
+  var links = [];
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/crossbows.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/robot_arm.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/mechatronics.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/quadcopter.html");
+  links.push("http://devchuk.github.io/portfolio/software/wubble.html");
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/the_wooden_trike.html");
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/whitehall_gig.html");
+  links.push("http://devchuk.github.io/portfolio/software/pictoid.html");
+  links.push("http://devchuk.github.io/portfolio/software/GET_STUY.html");
+  links.push("http://devchuk.github.io/portfolio/software/Pool.java.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/twitch.html");
+  links.push("http://devchuk.github.io/portfolio/software/scioly.html");
+  links.push("http://devchuk.github.io/portfolio/software/devchuk.html");
+  var refh = links[Math.floor((Math.random() * links.length))];
+  $('#random').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = refh;
+    });  
   </script>
 
 
