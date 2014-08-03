@@ -15,6 +15,7 @@ I'd like to give credit to the tools I used to create this website:
 -Colors were chosen with [Please.js](http://www.checkman.io/please).<br>
 -[Font Awesome](http://fortawesome.github.io/Font-Awesome/) offers fantastic fonts.<br>
 -[Brace Forms](http://forms.brace.io/) has helped a ton with the contact page.<br>
+-Form CSSing from [Pure CSS](http://purecss.io/forms/).
 -[MixItUp](https://mixitup.kunkalabs.com/) for an incredible sorting plugin for the portfolio page.<br>
 
 <!---excerpt-->
