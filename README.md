@@ -3,7 +3,7 @@ devchuk.github.io
 
 Student by day, hacker and maker by night.
 
-This is the website of Brian Chuk! It has a blog, resume, portfolio, and showcase creations by Brian Chuk.
+This is the website of Brian Chuk! It has a blog, portfolio, about page, and contact page.
 
 Run with
 > bundle exec jekyll serve --watch
