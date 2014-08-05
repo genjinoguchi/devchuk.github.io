@@ -1,7 +1,7 @@
 devchuk.github.io
 =================
 
-Student by day, hacker and maker by night.
+Student by day, hacker, maker, & tinkerer by night.
 
 This is the website of Brian Chuk! It has a blog, portfolio, about page, and contact page.
 
