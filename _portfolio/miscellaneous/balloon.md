@@ -1,6 +1,6 @@
 ---
 layout: project
-title: The Balloon Camera Flight
+title: The Balloon Phone Flight
 cat: mix category-3
 order: 17
 date: Aug 2014
