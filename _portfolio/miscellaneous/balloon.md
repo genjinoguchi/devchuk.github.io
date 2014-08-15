@@ -69,3 +69,9 @@ We didn't want the balloon camera to just fly straight up and get above the NYC 
 <br>
 <br>
 As of the creation of this page, the launch time is within 15 hours. I will post a video of its flight later.
+<br><br>
+Download the solidworks or STL files [here](https://drive.google.com/folderview?id=0B_RTwatU12PgR2NjdXJ6UDdBODQ&usp=sharing).
+
+Older solidworks files are found [here](https://drive.google.com/folderview?id=0B_RTwatU12PgY2I3NWpZN1B4NDQ&usp=sharing).
+
+More [photos](https://drive.google.com/folderview?id=0B_RTwatU12PgZi15UUJXdmJuUHc&usp=sharing) and [screenshots](https://drive.google.com/folderview?id=0B_RTwatU12PgdHMzeFdvX2R5Skk&usp=sharing)
