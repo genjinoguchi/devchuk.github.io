@@ -68,7 +68,31 @@ We didn't want the balloon camera to just fly straight up and get above the NYC 
 <small><i>Ready to launch</i></small></center>
 <br>
 <br>
-As of the creation of this page, the launch time is within 15 hours. I will post a video of its flight later.
+NEUTRAL BUOYANCY
+
+THEN ADD VIDEO OF FLIGHT
+<br><br>
+I had so much fun working on this and the day of the balloon launch is definitely one of the more exciting days of my summer. There were so many close calls with street lamps and buildings on the balloon that we were all cheering and yelling as we watched its livestream. We also even caught footage of a flying helicopter under us. The apparatus ended up streaming for 2.5 whole hours, visiting:
+>		39th and 5th
+>		next to the Chrysler building
+>		Roosevelt Island
+>		Long Island City
+>		look at facebook for rest
+
+<br><br>
+So what is there to take away from this project?
+
+Well first of all,
+
+###1)Keep it simple.
+
+The balloon phone flight shows that you don't need an expensive and complicated [quadcopter](http://devchuk.github.io/portfolio/hardware/quadcopter.html) to get the footage you want. Since the helium does all the work in keeping the aircraft in the air, we can focus more power into adding fans and making this controllable. The only issue is that we can't use phones to replace microcontrollers like the Arduino as of right now. Maybe I'll look into that in the future..
+<br><br>
+###2)Only when you're risking something-taking on a challenge-are you actually living.
+
+I was talking about this to Rob, an inventor and the founder of Kite & Rocket. We were talking about this time we launched a giant rubber balloon filled with air onto the street at 11 pm one night and how we cringed every time it was so close to exploding. He said something about how emotional stress makes you feel a lot more alive. And in a way, the statement is somewhat true. Everyone who was helping in the balloon launch was just so full of life as we rose above the New York City skyline, soared over a helicopter, and received incredible footage from deep in Long Island. It's eustress-the feeling you get when you're on a rollercoaster. When you're scared to death but somehow more alive than ever.
+<br><br>
+However, I reworded the statement 
 <br><br>
 Download the solidworks or STL files [here](https://drive.google.com/folderview?id=0B_RTwatU12PgR2NjdXJ6UDdBODQ&usp=sharing).
 
