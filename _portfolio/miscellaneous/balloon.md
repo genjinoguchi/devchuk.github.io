@@ -79,18 +79,25 @@ I had so much fun working on this and the day of the balloon launch is definitel
 >		next to the Chrysler building
 >		Roosevelt Island
 >		Long Island City
->		look at facebook for rest
+>		Mt. Zion Cemetary
+>		Jackson Pond Playground at Forest Park
+>		Plumb Beach Channel
+>		Middle Bay
+>		North Meadow Island Bridge
+>		Jones Beach State Park
+>		Nikon at Jones Beach Theatre
+>		The Atlantic Ocean
 
 <br><br>
 So what is there to take away from this project?
 
 Well first of all,
 
-###1)Keep it simple.
+<b>Keep it simple.</b>
 
 The balloon phone flight shows that you don't need an expensive and complicated [quadcopter](http://devchuk.github.io/portfolio/hardware/quadcopter.html) to get the footage you want. Since the helium does all the work in keeping the aircraft in the air, we can focus more power into adding fans and making this controllable. The only issue is that we can't use phones to replace microcontrollers like the Arduino as of right now. Maybe I'll look into that in the future..
 <br><br>
-###2)Only when you're risking something-taking on a challenge-are you actually living.
+<b>Only when you're risking something-taking on a challenge-are you actually living.</b>
 
 I was talking about this to Rob, an inventor and the founder of Kite & Rocket. We were talking about this time we launched a giant rubber balloon filled with air onto the street at 11 pm one night and how we cringed every time it was so close to exploding. He said something about how emotional stress makes you feel a lot more alive. And in a way, the statement is somewhat true. Everyone who was helping in the balloon launch was just so full of life as we rose above the New York City skyline, soared over a helicopter, and received incredible footage from deep in Long Island. It's eustress-the feeling you get when you're on a rollercoaster. When you're scared to death but somehow more alive than ever.
 <br><br>
