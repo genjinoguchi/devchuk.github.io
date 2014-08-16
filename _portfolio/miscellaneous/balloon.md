@@ -18,7 +18,7 @@ For the project, we used:
 
 >		cable ties
 >		ribbons
->		a hydrogen tank
+>		a helium tank
 >		6 foil balloons
 >		a couple book/binder rings
 >		a Verizon Wireless Prepaid Motorola Moto G No-Contract Cell Phone
