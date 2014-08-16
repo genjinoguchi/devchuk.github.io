@@ -91,7 +91,7 @@ I had so much fun working on this and the day of the balloon launch is definitel
 <br><br>
 So what is there to take away from this project?
 
-Well first of all,
+Well first of all,<br><br>
 
 <b>Keep it simple.</b>
 
@@ -101,7 +101,9 @@ The balloon phone flight shows that you don't need an expensive and complicated 
 
 I was talking about this to Rob, an inventor and the founder of Kite & Rocket. We were talking about this time we launched a giant rubber balloon filled with air onto the street at 11 pm one night and how we cringed every time it was so close to exploding. He said something about how emotional stress makes you feel a lot more alive. And in a way, the statement is somewhat true. Everyone who was helping in the balloon launch was just so full of life as we rose above the New York City skyline, soared over a helicopter, and received incredible footage from deep in Long Island. It's eustress-the feeling you get when you're on a rollercoaster. When you're scared to death but somehow more alive than ever.
 <br><br>
-However, I reworded the statement 
+However, I reworded the statement to the bold sentence above because what Rob said might have taken a masochistic approach haha.
+<br><br>
+Well that's all for now. Thanks for reading this project page! There will be more to come. :)
 <br><br>
 Download the solidworks or STL files [here](https://drive.google.com/folderview?id=0B_RTwatU12PgR2NjdXJ6UDdBODQ&usp=sharing).
 
