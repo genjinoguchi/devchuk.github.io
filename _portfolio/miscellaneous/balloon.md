@@ -72,11 +72,13 @@ We didn't want the balloon camera to just fly straight up and get above the NYC 
 <small><i>Neutrally buoyant</i></small></center>
 <br>
 <br>
-THEN ADD VIDEO OF FLIGHT
+<iframe width="939" height="528" src="//www.youtube.com/embed/625-2zjMKD8?rel=0" frameborder="0" allowfullscreen></iframe><br>
+<small><i>The flight footage</i></small></center>
 <br><br>
-I had so much fun working on this and the day of the balloon launch is definitely one of the more exciting days of my summer. There were so many close calls with street lamps and buildings on the balloon that we were all cheering and yelling as we watched its livestream. We also even caught footage of a flying helicopter under us. The apparatus ended up streaming for 2.5 whole hours, visiting:
+I had so much fun working on this and the day of the balloon launch is definitely one of the more exciting days of my summer. There were so many close calls with street lamps and buildings on the balloon that we were all cheering and yelling as we watched its livestream. We also even caught [footage of a flying helicopter under us](http://youtu.be/625-2zjMKD8?t=4m33s). The apparatus ended up streaming for 2.5 whole hours, visiting:
 >		39th and 5th
 >		next to the Chrysler building
+>		above the UN building
 >		Roosevelt Island
 >		Long Island City
 >		Mt. Zion Cemetary
