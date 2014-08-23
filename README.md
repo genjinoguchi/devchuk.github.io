@@ -1,52 +1,17 @@
 devchuk.github.io
 =================
 
-This is the website of Brian Chuk! It will have a blog, resume, and showcase creations by Brian Chuk.
-Here's an example website of a really cool guy named Jeremy Blum: http://www.jeremyblum.com/
+This is the website of Brian Chuk! It has a blog, portfolio, about page, and contact page.
 
-And here are some barebones websites that I can read through to figure out how they work if I ever get lost:
+Run with
+> bundle exec jekyll serve --watch
 
-	https://github.com/stuycs-softdev-fall-2013/stuycs-softdev.github.io
-	 https://github.com/cestlaz/cestlaz.github.io
+Oh and on a totally related note I like this:
 
-Potential background gif: http://i.imgur.com/EKmLMWB.gif
+http://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl
 
-Home
-	Blog
+Also this:
 
-	Portfolio
+https://soundcloud.com/aprilnhem/siren
 
-		Mechatronics
-
-		Software
-
-		Writing
-
-	    Miscellaneous
-
-	About
-
-	Contact
-
-
-Stuff that would be cool to have: fb, twitter, youtube, g+, linkedin, flickr
-
-http://www.quora.com/Web-Design/What-are-the-web-design-trends-for-2014
-
-Oh and here's a link of colors for CSS:
-
-		http://imgur.com/gallery/IEHsl
-
-We'll see if what this man says is true.
-
-And flat design examples:
-		http://kevlee.us/
-		http://annaakana.com/
-		http://fltdsgn.com/
-		http://plainwhite.co/#!/
-		http://r-ny.com/
-		http://hlynnphoto.com/index.php
-		http://www.formaxiom.com/
-
-That loading animation here is AMAZING WHAT. It's on Youtube too.
-http://sterlingplays.com/
+idk I like to listen to music when coding.

@@ -1,0 +1,91 @@
+---
+layout: portfolio
+Title: Brian Chuk | Portfolio
+---
+<link rel="stylesheet" type="text/css" href="../res/css/portfolio.css">
+
+<center style="font-weight:bold">
+  <label>Sort:</label>
+  <span class="sort" data-sort="random"><button class="button button-border-caution" id="shuffle"><i class="fa fa-random" style="padding-right:1em"></i></button></span>
+  <span class="sort" data-sort="myorder:desc"><button class="button button-border-caution" id="new">Newest First</button></span>
+  <span class="sort" data-sort="myorder:asc"><button class="button button-border-caution" id="old">Oldest First</button></span>
+  <label>Filter:</label>
+  <span class="filter" data-filter="all"><button class="button button-border-caution disabled" id="all">All</button></span>
+  <span class="filter" data-filter=".category-1"><button class="button button-border-caution" id="hard">Hardware</button></span>
+  <span class="filter" data-filter=".category-2"><button class="button button-border-caution" id="soft">Software</button></span>
+  <span class="filter" data-filter=".category-3"><button class="button button-border-caution" id="misc">Misc.</button></span>
+</center>
+          <div class="posts">
+            <div id="Container" class="grid cs-style-2">
+                {% for proj in site.portfolio %}
+                <li class="{{ proj.cat }}" data-myorder="{{ proj.order }}">                    
+                      <figure>
+                          <img src="{{ proj.img }}">
+                          <figcaption>
+                              <h3>{{ proj.title }}</h3>
+                              <span>{{ proj.date }}</span>
+                              <a href="{{ proj.url }}">Take a look</a>
+                          </figcaption>
+                      </figure>
+                  </li>
+                {% endfor %}
+            </div><!-- /Containermix-->
+          </div>
+
+<script src="../res/js/jquery.mixitup.min.js"></script>
+<script>
+  $(function(){
+
+    // Instantiate MixItUp:
+
+    $('#Container').mixItUp();
+
+  });
+
+</script>
+<script>
+  //button animations
+  $( "#shuffle" ).click(function() {
+        $( "#old" ).removeClass('disabled');
+        $( "#new" ).removeClass('disabled');
+  });
+  $( "#new" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#old" ).removeClass('disabled');
+  });
+  $( "#old" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#new" ).removeClass('disabled');
+  });
+  $( "#all" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#hard" ).removeClass('disabled');
+        $( "#soft" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
+  });
+  $( "#hard" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#all" ).removeClass('disabled');
+        $( "#soft" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
+
+  });
+  $( "#soft" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#all" ).removeClass('disabled');
+        $( "#hard" ).removeClass('disabled');
+        $( "#misc" ).removeClass('disabled');
+  });
+  $( "#misc" ).click(function() {
+        $(this).addClass('disabled');
+        $( "#all" ).removeClass('disabled');
+        $( "#hard" ).removeClass('disabled');
+        $( "#soft" ).removeClass('disabled');
+  });
+
+</script>
+<script>
+  $(function(){
+    $('#Container').mixItUp();
+  });
+</script>

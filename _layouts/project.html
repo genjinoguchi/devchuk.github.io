@@ -1,0 +1,17 @@
+---
+layout: portfolio
+---
+
+<script type="text/javascript">
+  if (screen.width <= 699) {
+  alert("My site is not optimized for phone browsers. You will be redirected to my mobile page. -Chuk");
+  document.location = "http://about.me/brian.chuk";
+  }
+</script>
+<div class="post">
+  <span style="color:#de3230;font-weight:bold">{{ page.title }}</span>
+  <small style="float:right" class="post-date">{{ page.date }}</small>
+  <br>
+  <br>
+  {{ content }}
+</div>

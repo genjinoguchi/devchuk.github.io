@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+  if (screen.width <= 699) {
+  alert("My site is not optimized for phone browsers. You will be redirected to my mobile page. -Chuk");
+  document.location = "http://about.me/brian.chuk";
+  }
+</script>
+    <title>Brian Chuk | Home</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Brian Chuk is a full stack software developer, a tinkerer, and a maker.">
+    <meta property="og:title" content="Brian Chuk | Home">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://devChuk.github.io">
+    <meta property="og:description" content="Brian Chuk is a full stack software developer, a tinkerer, and a maker.">
+    <meta property="og:site_name" content="Brian Chuk">
+    <meta name="twitter:creator" content="@sdevChuk">
+    <meta name="twitter:card" content="summary">
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3'></script>
+    <link rel="shortcut icon" href="./res/img/favicon.ico">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./res/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./res/css/buttons.css">
+</head>
+
+<body>
+  <header id="header" class="header header--fixed hide-from-print" role="banner">
+    <div class="container">  
+      <nav id="nav" class="nav-wrapper" role="navigation">
+          <ul class="nav">
+              <li class="nav__item ">
+                  <a class="header__link subdued" href="./blog">
+                      <span style="color:#fff">BLOG</span>
+                  </a>
+              </li>
+              <li class="nav__item ">
+                <a class="header__link subdued" href="./portfolio">
+                    <span style="color:#fff">PORTFOLIO</span>
+                </a>
+              </li>
+              <li class="nav__item ">
+                <a class="header__link subdued" href="./about">
+                    <span style="color:#fff">ABOUT</span>
+                </a>
+              </li>
+              <li class="nav__item ">
+                <a class="header__link subdued" href="./contact.html">
+                    <span style="color:#fff" style="color:#fff">CONTACT</span>
+                </a>
+              </li>
+          </ul>
+      </nav>
+        
+      <a href="http://devchuk.github.io" class="brand header__link">
+       <img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/favicon.ico">
+          <b class="brand__forename" style="color:#fff">Brian Chuk</b>
+      </a>
+    </div>
+  </header>
+
+  <header id="home"></header>
+  <div id="heroburrito">
+    <div id="heroburrito" class="vert home"  data-0="transform: translateY(0px);" data-1000="transform: translateY(350px);" >
+      <div class="vertwrapper">
+        <h1 data-0="background-position-y:-200px;" data-1000="background-position-y:0px;" style="padding-left:1em">Brian Chuk</h1>
+      </div>
+    </div>
+  </div>
+  <center>
+    <div id="page" class="clearfix" style="margin:6em">    
+      <div id="wrap" style="max-width:1300px">
+        <div id="content" class="full-width front-content">
+          <div style="float:left;width:600px;padding-right:1em;"><!--front left-->    
+            <div id="featured-box">
+              <header class="single-entry-header" style="text-align:left;padding-bottom:6em">
+                <h7 style="font-weight:bold">LATEST POST FROM MY BLOG</h7>
+                <hr>
+                {{ content }}
+              </header><!-- end single-entry-header -->   
+            </div> <!--#feature-->
+          </div><!--left float-->
+
+          <div id="front-right" style="text-align:left">
+
+            <h7 style="font-weight:bold">A LITTLE ABOUT ME</h7>
+            <hr>
+            <center><img class="mugshot" src="./res/img/stare3.jpg"></center>
+            <div style="text-align:justify">                
+              <center><div style="font-size:small"><i>Student by day, tinkerer and maker by night.</i></div></center>
+              I'm a Full Stack Software Developer and Electrical Engineer developing open-source hacks, building robots, blogging, and advocating entrepreneurship. I just really like to create awesome things, from the silliest concepts to projects that positively impact others. You can learn more about me <a href="http://devchuk.github.io/about">here</a>.   
+            </div>
+            <br>
+
+            <div id="featured-portfolio-box" style="">
+              <h7 style="font-weight:bold">RANDOM PORTFOLIO PROJECT</h7>
+              <hr>
+              <center><button class="button button-border-caution button-large" id="random">Surprise Me</button></center>
+            </div>
+          </div><!-- Front Right -->
+          <div class="clear"></div>       
+        </div><!-- end content -->
+      </div>
+    </div>
+  </center>
+
+  <footer id="footer" style="background-color:#de3230;clear:both;text-align:center;" class="container--wide">
+    <a class="footer-social">
+      <!--<span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="http://www.facebook.com/W0odchuk"><i class="fa fa-facebook fa-x"></i></a><span>-->
+      <span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="http://twitter.com/devchuk"><i class="fa fa-twitter fa-x"></i></a></span>
+      <span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="http://github.com/devchuk"><i class="fa fa-github fa-x"></i></a></span>
+      <span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="http://linkedin.com/pub/brian-chuk/9b/579/689/"><i class="fa fa-linkedin fa-x"></i></a></span>
+      <span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="https://news.ycombinator.com/user?id=devchuk"><i class="fa fa-hacker-news fa-x"></i></a></span>
+      <span><a style="padding-top:17px;padding-left:8px;padding-right:17px;padding-bottom:15px;text-align:left;display:block;float:left;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="http://www.youtube.com/channel/UCG78tXHk0lwlFO_Lr64ORaQ"><i class="fa fa-youtube-play fa-x"></i></a></span>
+    </a>
+    <a class="brand header__link" style="padding-right: 10em;">
+      &copy; 2014 Brian Chuk  
+      <img src="https://raw.githubusercontent.com/devChuk/devchuk.github.io/master/res/img/favicon.ico">
+    </a>
+    <a class="footer-up" style="padding-left:17px;text-align:right;display:block;float:right;color:#fff;text-decoration:none;border:0;vertical-align: baseline;"href="#home">
+      <i class="fa fa-arrow-up fa-2x"></i>
+    </a>
+  </footer>
+
+
+  <script src="http://wicky.nillia.ms/headroom.js/assets/scripts/main.js?v=2"></script>
+  <script>
+  (function() {
+    var header = document.querySelector("#header");
+    if(window.location.hash) {
+      header.classList.add("slide--up");
+    }
+
+    new Headroom(header, {
+      tolerance: 1,
+      offset : 205,
+      classes: {
+        initial: "slide",
+        pinned: "slide--reset",
+        unpinned: "slide--up"
+      }
+    }).init();
+
+  }());
+
+  var links = [];
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/crossbows.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/robot_arm.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/mechatronics.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/quadcopter.html");
+  links.push("http://devchuk.github.io/portfolio/software/wubble.html");
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/the_wooden_trike.html");
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/whitehall_gig.html");
+  links.push("http://devchuk.github.io/portfolio/software/pictoid.html");
+  links.push("http://devchuk.github.io/portfolio/software/GET_STUY.html");
+  links.push("http://devchuk.github.io/portfolio/software/Pool.java.html");
+  links.push("http://devchuk.github.io/portfolio/hardware/twitch.html");
+  links.push("http://devchuk.github.io/portfolio/software/scioly.html");
+  links.push("http://devchuk.github.io/portfolio/software/devchuk.html");
+  links.push("http://devchuk.github.io/portfolio/software/lineless.html");
+  links.push("http://devchuk.github.io/portfolio/miscellaneous/balloon.html");
+  var refh = links[Math.floor((Math.random() * links.length))];
+  $('#random').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = refh;
+    });  
+  </script>
+
+
+  <script type='text/javascript' src='./res/js/js.js'></script>
+  <script type='text/javascript' src='./res/js/imagesloaded.js'></script>
+  <script type='text/javascript' src='./res/js/helper.js'></script>
+</body>
+</html>
